@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8CC9F561BC2610F0044BDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F551BC2610F0044BDBE /* main.m */; };
+		F8CC9F591BC2610F0044BDBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F581BC2610F0044BDBE /* AppDelegate.m */; };
+		F8CC9F5C1BC2610F0044BDBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F5B1BC2610F0044BDBE /* ViewController.m */; };
+		F8CC9F5F1BC2610F0044BDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CC9F5D1BC2610F0044BDBE /* Main.storyboard */; };
+		F8CC9F611BC2610F0044BDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8CC9F601BC2610F0044BDBE /* Assets.xcassets */; };
+		F8CC9F641BC2610F0044BDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CC9F621BC2610F0044BDBE /* LaunchScreen.storyboard */; };
+		F8CC9F6F1BC2610F0044BDBE /* FutsalScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F6E1BC2610F0044BDBE /* FutsalScoreTests.m */; };
+		F8CC9F7A1BC2610F0044BDBE /* FutsalScoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F791BC2610F0044BDBE /* FutsalScoreUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8CC9F6B1BC2610F0044BDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CC9F491BC2610F0044BDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CC9F501BC2610F0044BDBE;
+			remoteInfo = FutsalScore;
+		};
+		F8CC9F761BC2610F0044BDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8CC9F491BC2610F0044BDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8CC9F501BC2610F0044BDBE;
+			remoteInfo = FutsalScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8CC9F511BC2610F0044BDBE /* FutsalScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutsalScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC9F551BC2610F0044BDBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8CC9F571BC2610F0044BDBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8CC9F581BC2610F0044BDBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8CC9F5A1BC2610F0044BDBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8CC9F5B1BC2610F0044BDBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8CC9F5E1BC2610F0044BDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8CC9F601BC2610F0044BDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8CC9F631BC2610F0044BDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8CC9F651BC2610F0044BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CC9F6A1BC2610F0044BDBE /* FutsalScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutsalScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC9F6E1BC2610F0044BDBE /* FutsalScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutsalScoreTests.m; sourceTree = "<group>"; };
+		F8CC9F701BC2610F0044BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8CC9F751BC2610F0044BDBE /* FutsalScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutsalScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC9F791BC2610F0044BDBE /* FutsalScoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutsalScoreUITests.m; sourceTree = "<group>"; };
+		F8CC9F7B1BC2610F0044BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8CC9F4E1BC2610F0044BDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC9F671BC2610F0044BDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC9F721BC2610F0044BDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8CC9F481BC2610F0044BDBE = {
+			isa = PBXGroup;
+			children = (
+				F8CC9F531BC2610F0044BDBE /* FutsalScore */,
+				F8CC9F6D1BC2610F0044BDBE /* FutsalScoreTests */,
+				F8CC9F781BC2610F0044BDBE /* FutsalScoreUITests */,
+				F8CC9F521BC2610F0044BDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8CC9F521BC2610F0044BDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC9F511BC2610F0044BDBE /* FutsalScore.app */,
+				F8CC9F6A1BC2610F0044BDBE /* FutsalScoreTests.xctest */,
+				F8CC9F751BC2610F0044BDBE /* FutsalScoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8CC9F531BC2610F0044BDBE /* FutsalScore */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC9F571BC2610F0044BDBE /* AppDelegate.h */,
+				F8CC9F581BC2610F0044BDBE /* AppDelegate.m */,
+				F8CC9F5A1BC2610F0044BDBE /* ViewController.h */,
+				F8CC9F5B1BC2610F0044BDBE /* ViewController.m */,
+				F8CC9F5D1BC2610F0044BDBE /* Main.storyboard */,
+				F8CC9F601BC2610F0044BDBE /* Assets.xcassets */,
+				F8CC9F621BC2610F0044BDBE /* LaunchScreen.storyboard */,
+				F8CC9F651BC2610F0044BDBE /* Info.plist */,
+				F8CC9F541BC2610F0044BDBE /* Supporting Files */,
+			);
+			path = FutsalScore;
+			sourceTree = "<group>";
+		};
+		F8CC9F541BC2610F0044BDBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC9F551BC2610F0044BDBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8CC9F6D1BC2610F0044BDBE /* FutsalScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC9F6E1BC2610F0044BDBE /* FutsalScoreTests.m */,
+				F8CC9F701BC2610F0044BDBE /* Info.plist */,
+			);
+			path = FutsalScoreTests;
+			sourceTree = "<group>";
+		};
+		F8CC9F781BC2610F0044BDBE /* FutsalScoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC9F791BC2610F0044BDBE /* FutsalScoreUITests.m */,
+				F8CC9F7B1BC2610F0044BDBE /* Info.plist */,
+			);
+			path = FutsalScoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8CC9F501BC2610F0044BDBE /* FutsalScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CC9F7E1BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScore" */;
+			buildPhases = (
+				F8CC9F4D1BC2610F0044BDBE /* Sources */,
+				F8CC9F4E1BC2610F0044BDBE /* Frameworks */,
+				F8CC9F4F1BC2610F0044BDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FutsalScore;
+			productName = FutsalScore;
+			productReference = F8CC9F511BC2610F0044BDBE /* FutsalScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8CC9F691BC2610F0044BDBE /* FutsalScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CC9F811BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScoreTests" */;
+			buildPhases = (
+				F8CC9F661BC2610F0044BDBE /* Sources */,
+				F8CC9F671BC2610F0044BDBE /* Frameworks */,
+				F8CC9F681BC2610F0044BDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CC9F6C1BC2610F0044BDBE /* PBXTargetDependency */,
+			);
+			name = FutsalScoreTests;
+			productName = FutsalScoreTests;
+			productReference = F8CC9F6A1BC2610F0044BDBE /* FutsalScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8CC9F741BC2610F0044BDBE /* FutsalScoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CC9F841BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScoreUITests" */;
+			buildPhases = (
+				F8CC9F711BC2610F0044BDBE /* Sources */,
+				F8CC9F721BC2610F0044BDBE /* Frameworks */,
+				F8CC9F731BC2610F0044BDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8CC9F771BC2610F0044BDBE /* PBXTargetDependency */,
+			);
+			name = FutsalScoreUITests;
+			productName = FutsalScoreUITests;
+			productReference = F8CC9F751BC2610F0044BDBE /* FutsalScoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8CC9F491BC2610F0044BDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = aikawa;
+				TargetAttributes = {
+					F8CC9F501BC2610F0044BDBE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F8CC9F691BC2610F0044BDBE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F8CC9F501BC2610F0044BDBE;
+					};
+					F8CC9F741BC2610F0044BDBE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F8CC9F501BC2610F0044BDBE;
+					};
+				};
+			};
+			buildConfigurationList = F8CC9F4C1BC2610F0044BDBE /* Build configuration list for PBXProject "FutsalScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8CC9F481BC2610F0044BDBE;
+			productRefGroup = F8CC9F521BC2610F0044BDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8CC9F501BC2610F0044BDBE /* FutsalScore */,
+				F8CC9F691BC2610F0044BDBE /* FutsalScoreTests */,
+				F8CC9F741BC2610F0044BDBE /* FutsalScoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8CC9F4F1BC2610F0044BDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC9F641BC2610F0044BDBE /* LaunchScreen.storyboard in Resources */,
+				F8CC9F611BC2610F0044BDBE /* Assets.xcassets in Resources */,
+				F8CC9F5F1BC2610F0044BDBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC9F681BC2610F0044BDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC9F731BC2610F0044BDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8CC9F4D1BC2610F0044BDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC9F5C1BC2610F0044BDBE /* ViewController.m in Sources */,
+				F8CC9F591BC2610F0044BDBE /* AppDelegate.m in Sources */,
+				F8CC9F561BC2610F0044BDBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC9F661BC2610F0044BDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC9F6F1BC2610F0044BDBE /* FutsalScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8CC9F711BC2610F0044BDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CC9F7A1BC2610F0044BDBE /* FutsalScoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8CC9F6C1BC2610F0044BDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CC9F501BC2610F0044BDBE /* FutsalScore */;
+			targetProxy = F8CC9F6B1BC2610F0044BDBE /* PBXContainerItemProxy */;
+		};
+		F8CC9F771BC2610F0044BDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8CC9F501BC2610F0044BDBE /* FutsalScore */;
+			targetProxy = F8CC9F761BC2610F0044BDBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8CC9F5D1BC2610F0044BDBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CC9F5E1BC2610F0044BDBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8CC9F621BC2610F0044BDBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8CC9F631BC2610F0044BDBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8CC9F7C1BC2610F0044BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8CC9F7D1BC2610F0044BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8CC9F7F1BC2610F0044BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FutsalScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest.FutsalScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8CC9F801BC2610F0044BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FutsalScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest.FutsalScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8CC9F821BC2610F0044BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FutsalScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest.FutsalScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutsalScore.app/FutsalScore";
+			};
+			name = Debug;
+		};
+		F8CC9F831BC2610F0044BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FutsalScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest.FutsalScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FutsalScore.app/FutsalScore";
+			};
+			name = Release;
+		};
+		F8CC9F851BC2610F0044BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FutsalScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest.FutsalScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FutsalScore;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F8CC9F861BC2610F0044BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FutsalScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mytest.FutsalScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FutsalScore;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8CC9F4C1BC2610F0044BDBE /* Build configuration list for PBXProject "FutsalScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC9F7C1BC2610F0044BDBE /* Debug */,
+				F8CC9F7D1BC2610F0044BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CC9F7E1BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC9F7F1BC2610F0044BDBE /* Debug */,
+				F8CC9F801BC2610F0044BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8CC9F811BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC9F821BC2610F0044BDBE /* Debug */,
+				F8CC9F831BC2610F0044BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8CC9F841BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CC9F851BC2610F0044BDBE /* Debug */,
+				F8CC9F861BC2610F0044BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8CC9F491BC2610F0044BDBE /* Project object */;
+}
