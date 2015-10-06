@@ -19,6 +19,8 @@
 		F8CC9F921BC3871D0044BDBE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F911BC3871D0044BDBE /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8CC9F951BC389180044BDBE /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F941BC389180044BDBE /* ResultTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8CC9F981BC39DDA0044BDBE /* PracticeResutlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F9B1BC3B87E0044BDBE /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F9A1BC3B87E0044BDBE /* MemberViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F9E1BC3BCD40044BDBE /* MemberRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		F8CC9F941BC389180044BDBE /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewController.m; sourceTree = "<group>"; };
 		F8CC9F961BC39DDA0044BDBE /* PracticeResutlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeResutlViewController.h; sourceTree = "<group>"; };
 		F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeResutlViewController.m; sourceTree = "<group>"; };
+		F8CC9F991BC3B87E0044BDBE /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
+		F8CC9F9A1BC3B87E0044BDBE /* MemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
+		F8CC9F9C1BC3BCD40044BDBE /* MemberRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberRegisterViewController.h; sourceTree = "<group>"; };
+		F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberRegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,10 @@
 				F8CC9F961BC39DDA0044BDBE /* PracticeResutlViewController.h */,
 				F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */,
 				F8CC9F5D1BC2610F0044BDBE /* Main.storyboard */,
+				F8CC9F9C1BC3BCD40044BDBE /* MemberRegisterViewController.h */,
+				F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */,
+				F8CC9F991BC3B87E0044BDBE /* MemberViewController.h */,
+				F8CC9F9A1BC3B87E0044BDBE /* MemberViewController.m */,
 				F8CC9F601BC2610F0044BDBE /* Assets.xcassets */,
 				F8CC9F621BC2610F0044BDBE /* LaunchScreen.storyboard */,
 				F8CC9F651BC2610F0044BDBE /* Info.plist */,
@@ -290,6 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CC9F9E1BC3BCD40044BDBE /* MemberRegisterViewController.m in Sources */,
+				F8CC9F9B1BC3B87E0044BDBE /* MemberViewController.m in Sources */,
 				F8CC9F8C1BC262030044BDBE /* GameViewController.m in Sources */,
 				F8CC9F591BC2610F0044BDBE /* AppDelegate.m in Sources */,
 				F8CC9F561BC2610F0044BDBE /* main.m in Sources */,
