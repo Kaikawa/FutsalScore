@@ -9,7 +9,13 @@
 #import "MemberRegisterViewController.h"
 
 @interface MemberRegisterViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *firstNameText;
+@property (weak, nonatomic) IBOutlet UITextField *lastNameText;
+@property (weak, nonatomic) IBOutlet UITextField *numberText;
+@property (weak, nonatomic) IBOutlet UITextField *positionText;
 - (IBAction)cancel:(UIBarButtonItem *)sender;
+- (IBAction)registerButton:(UIButton *)sender;
 
 @end
 
@@ -37,5 +43,9 @@
 
 - (IBAction)cancel:(UIBarButtonItem *)sender {
    [self dismissViewControllerAnimated:YES completion:nil]; 
+}
+
+- (IBAction)registerButton:(UIButton *)sender {
+    NSLog(@"firstName = %@", _firstNameText.text);
 }
 @end

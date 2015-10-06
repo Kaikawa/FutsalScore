@@ -11,6 +11,7 @@
 @interface MemberViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 {
     __weak IBOutlet UITableView *MemberTable;
+    NSArray *playerNames;
 }
 
 @end

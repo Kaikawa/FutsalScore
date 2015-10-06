@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    playerNames = [NSArray  arrayWithObjects:@"相川　耕佑", @"高橋　健一",@"米田　拓郎",@"若松　勇気",@"横山　雄大",nil];;
     MemberTable.delegate = self;
     MemberTable.dataSource = self;
     // Do any additional setup after loading the view.
@@ -27,14 +29,13 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return playerNames.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifier = @"Cell";
     
     //ここをrealm化
-    NSArray *playerNames     = [[NSArray alloc] initWithObjects:@"相川　耕佑", @"高橋　健一",@"米田　拓郎",@"若松　勇気",@"横山　雄大",nil];
     NSArray *numbers         = [[NSArray alloc] initWithObjects:@"10", @"81",@"29",@"21",@"17",nil];
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
