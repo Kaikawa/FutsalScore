@@ -14,9 +14,11 @@
 		F8CC9F641BC2610F0044BDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CC9F621BC2610F0044BDBE /* LaunchScreen.storyboard */; };
 		F8CC9F6F1BC2610F0044BDBE /* FutsalScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F6E1BC2610F0044BDBE /* FutsalScoreTests.m */; };
 		F8CC9F7A1BC2610F0044BDBE /* FutsalScoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F791BC2610F0044BDBE /* FutsalScoreUITests.m */; };
-		F8CC9F891BC261C60044BDBE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F881BC261C60044BDBE /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8CC9F8C1BC262030044BDBE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F8B1BC262030044BDBE /* GameViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8CC9F8F1BC262130044BDBE /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F8E1BC262130044BDBE /* ResultViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F921BC3871D0044BDBE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F911BC3871D0044BDBE /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F951BC389180044BDBE /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F941BC389180044BDBE /* ResultTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F981BC39DDA0044BDBE /* PracticeResutlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,12 +53,16 @@
 		F8CC9F751BC2610F0044BDBE /* FutsalScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutsalScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CC9F791BC2610F0044BDBE /* FutsalScoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutsalScoreUITests.m; sourceTree = "<group>"; };
 		F8CC9F7B1BC2610F0044BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8CC9F871BC261C60044BDBE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
-		F8CC9F881BC261C60044BDBE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
 		F8CC9F8A1BC262030044BDBE /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		F8CC9F8B1BC262030044BDBE /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		F8CC9F8D1BC262130044BDBE /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		F8CC9F8E1BC262130044BDBE /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		F8CC9F901BC3871D0044BDBE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F8CC9F911BC3871D0044BDBE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F8CC9F931BC389180044BDBE /* ResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewController.h; sourceTree = "<group>"; };
+		F8CC9F941BC389180044BDBE /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewController.m; sourceTree = "<group>"; };
+		F8CC9F961BC39DDA0044BDBE /* PracticeResutlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeResutlViewController.h; sourceTree = "<group>"; };
+		F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeResutlViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +115,16 @@
 			children = (
 				F8CC9F571BC2610F0044BDBE /* AppDelegate.h */,
 				F8CC9F581BC2610F0044BDBE /* AppDelegate.m */,
-				F8CC9F871BC261C60044BDBE /* HomeViewController.h */,
-				F8CC9F881BC261C60044BDBE /* HomeViewController.m */,
+				F8CC9F931BC389180044BDBE /* ResultTableViewController.h */,
+				F8CC9F941BC389180044BDBE /* ResultTableViewController.m */,
+				F8CC9F901BC3871D0044BDBE /* HomeViewController.h */,
+				F8CC9F911BC3871D0044BDBE /* HomeViewController.m */,
 				F8CC9F8A1BC262030044BDBE /* GameViewController.h */,
 				F8CC9F8B1BC262030044BDBE /* GameViewController.m */,
 				F8CC9F8D1BC262130044BDBE /* ResultViewController.h */,
 				F8CC9F8E1BC262130044BDBE /* ResultViewController.m */,
+				F8CC9F961BC39DDA0044BDBE /* PracticeResutlViewController.h */,
+				F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */,
 				F8CC9F5D1BC2610F0044BDBE /* Main.storyboard */,
 				F8CC9F601BC2610F0044BDBE /* Assets.xcassets */,
 				F8CC9F621BC2610F0044BDBE /* LaunchScreen.storyboard */,
@@ -283,8 +293,10 @@
 				F8CC9F8C1BC262030044BDBE /* GameViewController.m in Sources */,
 				F8CC9F591BC2610F0044BDBE /* AppDelegate.m in Sources */,
 				F8CC9F561BC2610F0044BDBE /* main.m in Sources */,
-				F8CC9F891BC261C60044BDBE /* HomeViewController.m in Sources */,
 				F8CC9F8F1BC262130044BDBE /* ResultViewController.m in Sources */,
+				F8CC9F951BC389180044BDBE /* ResultTableViewController.m in Sources */,
+				F8CC9F921BC3871D0044BDBE /* HomeViewController.m in Sources */,
+				F8CC9F981BC39DDA0044BDBE /* PracticeResutlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

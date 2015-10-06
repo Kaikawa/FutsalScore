@@ -31,36 +31,129 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fqz-wb-pPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="170" y="621"/>
+            <point key="canvasLocation" x="982" y="621"/>
         </scene>
         <!--Result-->
-        <scene sceneID="ZOQ-4X-vcd">
+        <scene sceneID="Crp-Do-Wp3">
             <objects>
-                <viewController title="Result" id="mDG-x6-CbA" customClass="ResultViewController" sceneMemberID="viewController">
+                <viewController title="Result" id="gha-s5-ItP" customClass="ResultViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="diR-L7-BeL"/>
-                        <viewControllerLayoutGuide type="bottom" id="hMc-7y-rP3"/>
+                        <viewControllerLayoutGuide type="top" id="pkY-nF-a0k"/>
+                        <viewControllerLayoutGuide type="bottom" id="pW2-Dv-9wM"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QRm-co-VuE">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
+                    <view key="view" contentMode="scaleToFill" id="4Qq-vD-mVO">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="hPE-30-UsN">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="w7Z-e9-GaW">
                                 <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Result" id="QQf-2b-CtP"/>
+                                    <navigationItem title="Result" id="dQF-IJ-Zzg"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTe-zE-2F4">
+                                <rect key="frame" x="271" y="167" width="227" height="85"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="公式戦"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bD-bS-6X0">
+                                <rect key="frame" x="250" y="320" width="268" height="88"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="紅白戦"/>
+                                <connections>
+                                    <segue destination="RP8-CK-xee" kind="modal" id="7cB-b6-Iaj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eM-gY-Yy5">
+                                <rect key="frame" x="252" y="479" width="264" height="125"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="ランキング"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="6FB-1U-i9J"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="RjT-Eh-wYb"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wej-kr-RI8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="656-j2-DZn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="170" y="1727"/>
+            <point key="canvasLocation" x="1454" y="1925"/>
+        </scene>
+        <!--Practice Resutl View Controller-->
+        <scene sceneID="Pkn-rZ-cV8">
+            <objects>
+                <viewController id="RP8-CK-xee" customClass="PracticeResutlViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Sk-RI-zzP"/>
+                        <viewControllerLayoutGuide type="bottom" id="83B-Rl-uBl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HCm-0o-9UN">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="gX6-2g-kuK">
+                                <rect key="frame" x="0.0" y="28" width="768" height="44"/>
+                                <items>
+                                    <navigationItem title="紅白戦" id="yyz-fG-MiM">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="phe-g5-gzU">
+                                            <connections>
+                                                <action selector="cancel:" destination="RP8-CK-xee" id="Be2-hI-l5x"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QNs-M4-5OT">
+                                <rect key="frame" x="0.0" y="72" width="768" height="952"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uDN-PB-PkF"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="resultView" destination="QNs-M4-5OT" id="owv-l7-0ZB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djm-yo-PL9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2350" y="1382"/>
+        </scene>
+        <!--紅白戦-->
+        <scene sceneID="gAZ-QU-22E">
+            <objects>
+                <tableViewController title="紅白戦" id="Z52-yH-6cy" customClass="ResultTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ec1-cP-sI9">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="h4M-8t-43k">
+                                <rect key="frame" x="0.0" y="92" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h4M-8t-43k" id="K6g-Mf-zqY">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Z52-yH-6cy" id="epD-yR-WBU"/>
+                            <outlet property="delegate" destination="Z52-yH-6cy" id="Qmv-0W-5eq"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems>
+                        <barButtonItem systemItem="cancel" id="rmG-41-u9p"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="2Qs-6h-kog"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hf-qn-gM3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="1579"/>
         </scene>
         <!--Home-->
         <scene sceneID="MFq-tk-VEj">
@@ -111,12 +204,32 @@
                     <connections>
                         <segue destination="V3Y-Zz-bv7" kind="relationship" relationship="viewControllers" id="dY7-3X-3e8"/>
                         <segue destination="DEz-xP-hL6" kind="relationship" relationship="viewControllers" id="K0D-tX-Mpu"/>
-                        <segue destination="mDG-x6-CbA" kind="relationship" relationship="viewControllers" id="ORQ-o7-ebf"/>
+                        <segue destination="gha-s5-ItP" kind="relationship" relationship="viewControllers" id="DQF-2I-Fpt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QNj-D6-nRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-756" y="297"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="JFM-kF-cFS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g4T-I2-mFS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="12L-Dq-UFp"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="BaJ-Wm-G2p"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QHY-O1-YoS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Z52-yH-6cy" kind="relationship" relationship="rootViewController" id="614-lg-16d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="skV-Zu-7IL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-776" y="1591"/>
         </scene>
     </scenes>
 </document>
