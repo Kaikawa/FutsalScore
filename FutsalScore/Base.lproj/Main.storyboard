@@ -312,9 +312,12 @@
                                     <navigationItem title="Home" id="UPy-3I-O8I"/>
                                 </items>
                             </navigationBar>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="2815fc5dbca57daed0dfd22be6b02bc8.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="nox-Ex-R2E">
+                                <rect key="frame" x="69" y="209" width="256" height="256"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tokyo tech" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ye7-At-dr4">
-                                <rect key="frame" x="135" y="235" width="499" height="165"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <rect key="frame" x="413" y="209" width="499" height="165"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="56"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -372,4 +375,7 @@
             <point key="canvasLocation" x="-776" y="1591"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="2815fc5dbca57daed0dfd22be6b02bc8.jpeg" width="256" height="256"/>
+    </resources>
 </document>
