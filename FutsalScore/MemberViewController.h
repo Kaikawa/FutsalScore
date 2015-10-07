@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Realm/Realm.h>
+#import "Player.h"
 
 @interface MemberViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 {
     __weak IBOutlet UITableView *MemberTable;
-    NSArray *playerNames;
+    NSMutableArray *playerNames;
 }
 
 @end

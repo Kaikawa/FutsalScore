@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Player.h"
+#import <Realm/Realm.h>
 
 @interface MemberRegisterViewController : UIViewController
 

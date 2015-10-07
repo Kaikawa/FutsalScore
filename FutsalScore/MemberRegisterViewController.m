@@ -46,6 +46,22 @@
 }
 
 - (IBAction)registerButton:(UIButton *)sender {
-    NSLog(@"firstName = %@", _firstNameText.text);
+    Player *player = [[Player alloc] init];
+    player.id = [[NSUUID UUID] UUIDString];
+    player.firstname = _firstNameText.text;
+    player.lastname  = _lastNameText.text;
+    player.number = [_numberText.text intValue];
+    player.position = _positionText.text;
+    
+    RLMRealm *realm = [RLMRealm defaultRealm];
+    
+    [realm beginWriteTransaction];
+    [realm addObject:player];
+    [realm commitWriteTransaction];
+    
+    NSNotification *notification = [NSNotification notificationWithName:@"reloadMember" object:self];
+    [[NSNotificationCenter defaultCenter] postNotification:notification];
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end

@@ -16,16 +16,41 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    playerNames = [[NSMutableArray alloc] init];
+    [self setPlayerNames];
     
-    playerNames = [NSArray  arrayWithObjects:@"相川　耕佑", @"高橋　健一",@"米田　拓郎",@"若松　勇気",@"横山　雄大",nil];;
     MemberTable.delegate = self;
     MemberTable.dataSource = self;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadMember) name:@"reloadMember" object:nil];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)setPlayerNames{
+    if (playerNames.count != 0) {
+        [playerNames removeAllObjects];
+    }
+    
+    RLMRealm *realm    = RLMRealm.defaultRealm;
+    RLMResults *players = [Player allObjects];
+    
+    [realm beginWriteTransaction];
+    for (Player *player in players) {
+        NSString *playerName = [NSString stringWithFormat:@"%@  %@",player.lastname,player.firstname];
+        [playerNames addObject:playerName];
+    }
+    [realm commitWriteTransaction];
+}
+
+-(void) reloadMember
+{
+    [self setPlayerNames];
+    [MemberTable reloadData];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -36,14 +61,14 @@
     static NSString *cellIdentifier = @"Cell";
     
     //ここをrealm化
-    NSArray *numbers         = [[NSArray alloc] initWithObjects:@"10", @"81",@"29",@"21",@"17",nil];
+    //NSArray *numbers         = [[NSArray alloc] initWithObjects:@"10", @"81",@"29",@"21",@"17",nil];
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
     }
     cell.textLabel.text       = [playerNames objectAtIndex:indexPath.row];
-    cell.detailTextLabel.text = [numbers objectAtIndex:indexPath.row];
+    //cell.detailTextLabel.text = [numbers objectAtIndex:indexPath.row];
     cell.accessoryType        = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
