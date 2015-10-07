@@ -22,6 +22,7 @@
 		F8CC9F981BC39DDA0044BDBE /* PracticeResutlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8CC9F9B1BC3B87E0044BDBE /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F9A1BC3B87E0044BDBE /* MemberViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8CC9F9E1BC3BCD40044BDBE /* MemberRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8D514B21BC4FE6800CFC76C /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D514B11BC4FE6800CFC76C /* PlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8DB2F8A1BC3D2FF00796753 /* 2815fc5dbca57daed0dfd22be6b02bc8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F8DB2F891BC3D2FF00796753 /* 2815fc5dbca57daed0dfd22be6b02bc8.jpeg */; settings = {ASSET_TAGS = (); }; };
 		F8DB2F8D1BC4CFB900796753 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DB2F8C1BC4CFB900796753 /* Player.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -77,6 +78,8 @@
 		F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberRegisterViewController.m; sourceTree = "<group>"; };
 		F8D514AE1BC4E32C00CFC76C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		F8D514AF1BC4E32C00CFC76C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8D514B01BC4FE6800CFC76C /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		F8D514B11BC4FE6800CFC76C /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
 		F8DB2F891BC3D2FF00796753 /* 2815fc5dbca57daed0dfd22be6b02bc8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2815fc5dbca57daed0dfd22be6b02bc8.jpeg; sourceTree = "<group>"; };
 		F8DB2F8B1BC4CFB900796753 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		F8DB2F8C1BC4CFB900796753 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
@@ -163,9 +166,11 @@
 				F8CC9F961BC39DDA0044BDBE /* PracticeResutlViewController.h */,
 				F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */,
 				F8CC9F5D1BC2610F0044BDBE /* Main.storyboard */,
-				F8CC9F9C1BC3BCD40044BDBE /* MemberRegisterViewController.h */,
+				F8D514B01BC4FE6800CFC76C /* PlayerViewController.h */,
+				F8D514B11BC4FE6800CFC76C /* PlayerViewController.m */,
 				F8DB2F8B1BC4CFB900796753 /* Player.h */,
 				F8DB2F8C1BC4CFB900796753 /* Player.m */,
+				F8CC9F9C1BC3BCD40044BDBE /* MemberRegisterViewController.h */,
 				F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */,
 				F8CC9F991BC3B87E0044BDBE /* MemberViewController.h */,
 				F8CC9F9A1BC3B87E0044BDBE /* MemberViewController.m */,
@@ -379,6 +384,7 @@
 				F8CC9F8F1BC262130044BDBE /* ResultViewController.m in Sources */,
 				F8CC9F951BC389180044BDBE /* ResultTableViewController.m in Sources */,
 				F8CC9F921BC3871D0044BDBE /* HomeViewController.m in Sources */,
+				F8D514B21BC4FE6800CFC76C /* PlayerViewController.m in Sources */,
 				F8CC9F981BC39DDA0044BDBE /* PracticeResutlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

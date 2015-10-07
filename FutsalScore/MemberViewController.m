@@ -9,6 +9,9 @@
 #import "MemberViewController.h"
 
 @interface MemberViewController ()
+{
+    NSString *lastName;
+}
 
 @end
 
@@ -17,7 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     playerNames = [[NSMutableArray alloc] init];
-    [self setPlayerNames];
+    playerPositions = [[NSMutableArray alloc] init];
+    lastName = [[NSString alloc] init];
+    [self setPlayer];
     
     MemberTable.delegate = self;
     MemberTable.dataSource = self;
@@ -31,9 +36,12 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)setPlayerNames{
+-(void)setPlayer{
     if (playerNames.count != 0) {
         [playerNames removeAllObjects];
+    }
+    if (playerPositions != 0) {
+        [playerPositions removeAllObjects];
     }
     
     RLMRealm *realm    = RLMRealm.defaultRealm;
@@ -41,15 +49,16 @@
     
     [realm beginWriteTransaction];
     for (Player *player in players) {
-        NSString *playerName = [NSString stringWithFormat:@"%@  %@",player.lastname,player.firstname];
+        NSString *playerName = [NSString stringWithFormat:@"%d    %@  %@",player.number,player.lastname,player.firstname];
         [playerNames addObject:playerName];
+        [playerPositions addObject:player.position];
     }
     [realm commitWriteTransaction];
 }
 
 -(void) reloadMember
 {
-    [self setPlayerNames];
+    [self setPlayer];
     [MemberTable reloadData];
 }
 
@@ -68,10 +77,23 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
     }
     cell.textLabel.text       = [playerNames objectAtIndex:indexPath.row];
-    //cell.detailTextLabel.text = [numbers objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text = [playerPositions objectAtIndex:indexPath.row];
     cell.accessoryType        = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
+}
+
+-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+ 
+    lastName = [[playerNames objectAtIndex:indexPath.row] description];
+    [self performSegueWithIdentifier:@"toPlayerViewController" sender:self];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([[segue identifier] isEqualToString:@"toPlayerViewController"]) {
+        PlayerViewController *vc = (PlayerViewController*)[segue destinationViewController];
+        vc.lastNameLabel.text = lastName;
+    }
 }
 
 /*
