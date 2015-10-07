@@ -1,5 +1,5 @@
 //
-//  PlayerViewController.h
+//  RankingViewController.h
 //  FutsalScore
 //
 //  Created by 相川　耕佑 on 2015/10/07.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Realm/Realm.h>
-#import "Player.h"
 
-@interface PlayerViewController : UIViewController
+@interface RankingViewController : UIViewController
 
 @end

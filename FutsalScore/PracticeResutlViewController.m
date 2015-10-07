@@ -19,6 +19,7 @@
     [super viewDidLoad];
     resultView.delegate = self;
     resultView.dataSource = self;
+    self.title = @"紅白戦";
     // Do any additional setup after loading the view.
 }
 

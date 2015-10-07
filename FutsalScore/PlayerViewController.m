@@ -10,14 +10,30 @@
 
 @interface PlayerViewController ()
 
+@property (strong, nonatomic) IBOutlet UILabel *goalLabel;
+@property (strong, nonatomic) IBOutlet UILabel *assistLabel;
+@property (strong, nonatomic) IBOutlet UILabel *shootLabel;
+
 @end
 
 @implementation PlayerViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    RLMRealm *realm     = RLMRealm.defaultRealm;
+    NSString *playerNum = [self.title substringToIndex:2];
+    NSString *where     = [NSString stringWithFormat:@"number = %@", playerNum];
+    RLMResults *players = [Player objectsWhere:where];
+    
+    [realm beginWriteTransaction];
+    Player *player    = players[0];
+    _goalLabel.text   = [NSString stringWithFormat:@"%d", player.goal];
+    _assistLabel.text = [NSString stringWithFormat:@"%d", player.assist];
+    _shootLabel.text  = [NSString stringWithFormat:@"%d", player.shoot];
+    [realm commitWriteTransaction];
+
     // Do any additional setup after loading the view.
-    NSLog(@"%@",_lastNameLabel.text);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,5 +50,43 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)goalButton:(UIButton *)sender {
+    RLMRealm *realm     = RLMRealm.defaultRealm;
+    NSString *playerNum = [self.title substringToIndex:2];
+    NSString *where     = [NSString stringWithFormat:@"number = %@", playerNum];
+    RLMResults *players = [Player objectsWhere:where];
+    
+    [realm beginWriteTransaction];
+    Player *player    = players[0];
+    player.goal      += 1;
+    _goalLabel.text   = [NSString stringWithFormat:@"%d", player.goal];
+    [realm commitWriteTransaction];
+}
+
+- (IBAction)assistButton:(UIButton *)sender {
+    RLMRealm *realm     = RLMRealm.defaultRealm;
+    NSString *playerNum = [self.title substringToIndex:2];
+    NSString *where     = [NSString stringWithFormat:@"number = %@", playerNum];
+    RLMResults *players = [Player objectsWhere:where];
+    
+    [realm beginWriteTransaction];
+    Player *player    = players[0];
+    player.assist    += 1;
+    _assistLabel.text = [NSString stringWithFormat:@"%d", player.assist];
+    [realm commitWriteTransaction];
+}
+
+- (IBAction)shootButton:(UIButton *)sender {
+    RLMRealm *realm     = RLMRealm.defaultRealm;
+    NSString *playerNum = [self.title substringToIndex:2];
+    NSString *where     = [NSString stringWithFormat:@"number = %@", playerNum];
+    RLMResults *players = [Player objectsWhere:where];
+    
+    [realm beginWriteTransaction];
+    Player *player    = players[0];
+    player.shoot     += 1;
+    _shootLabel.text  = [NSString stringWithFormat:@"%d", player.shoot];
+    [realm commitWriteTransaction];
+}
 
 @end

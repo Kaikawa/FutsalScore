@@ -22,6 +22,9 @@
     playerNames = [[NSMutableArray alloc] init];
     playerPositions = [[NSMutableArray alloc] init];
     lastName = [[NSString alloc] init];
+    [UINavigationBar appearance].barTintColor = [UIColor colorWithRed:0.000 green:0.000 blue:0.000 alpha:1.000];
+    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
+    self.title = @"Member";
     [self setPlayer];
     
     MemberTable.delegate = self;
@@ -69,9 +72,6 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifier = @"Cell";
     
-    //ここをrealm化
-    //NSArray *numbers         = [[NSArray alloc] initWithObjects:@"10", @"81",@"29",@"21",@"17",nil];
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
@@ -92,7 +92,7 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if ([[segue identifier] isEqualToString:@"toPlayerViewController"]) {
         PlayerViewController *vc = (PlayerViewController*)[segue destinationViewController];
-        vc.lastNameLabel.text = lastName;
+        vc.title = lastName;
     }
 }
 
