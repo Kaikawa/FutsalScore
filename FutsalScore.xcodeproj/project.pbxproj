@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1021CA50D8DCB1F42C0819C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83C31FC2040C32DA997106CA /* libPods.a */; };
 		F8CC9F561BC2610F0044BDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F551BC2610F0044BDBE /* main.m */; };
 		F8CC9F591BC2610F0044BDBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F581BC2610F0044BDBE /* AppDelegate.m */; };
 		F8CC9F5F1BC2610F0044BDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CC9F5D1BC2610F0044BDBE /* Main.storyboard */; };
@@ -14,9 +15,17 @@
 		F8CC9F641BC2610F0044BDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8CC9F621BC2610F0044BDBE /* LaunchScreen.storyboard */; };
 		F8CC9F6F1BC2610F0044BDBE /* FutsalScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F6E1BC2610F0044BDBE /* FutsalScoreTests.m */; };
 		F8CC9F7A1BC2610F0044BDBE /* FutsalScoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F791BC2610F0044BDBE /* FutsalScoreUITests.m */; };
-		F8CC9F891BC261C60044BDBE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F881BC261C60044BDBE /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8CC9F8C1BC262030044BDBE /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F8B1BC262030044BDBE /* GameViewController.m */; settings = {ASSET_TAGS = (); }; };
 		F8CC9F8F1BC262130044BDBE /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F8E1BC262130044BDBE /* ResultViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F921BC3871D0044BDBE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F911BC3871D0044BDBE /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F951BC389180044BDBE /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F941BC389180044BDBE /* ResultTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F981BC39DDA0044BDBE /* PracticeResutlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F9B1BC3B87E0044BDBE /* MemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F9A1BC3B87E0044BDBE /* MemberViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8CC9F9E1BC3BCD40044BDBE /* MemberRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8D514B21BC4FE6800CFC76C /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D514B11BC4FE6800CFC76C /* PlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8D514B51BC5230900CFC76C /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D514B41BC5230900CFC76C /* RankingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F8DB2F8A1BC3D2FF00796753 /* 2815fc5dbca57daed0dfd22be6b02bc8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F8DB2F891BC3D2FF00796753 /* 2815fc5dbca57daed0dfd22be6b02bc8.jpeg */; settings = {ASSET_TAGS = (); }; };
+		F8DB2F8D1BC4CFB900796753 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DB2F8C1BC4CFB900796753 /* Player.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B3CCC1187B1FC36E502204 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		83C31FC2040C32DA997106CA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8123638A7528B7B91B2C99 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F8CC9F511BC2610F0044BDBE /* FutsalScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FutsalScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CC9F551BC2610F0044BDBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8CC9F571BC2610F0044BDBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,12 +63,29 @@
 		F8CC9F751BC2610F0044BDBE /* FutsalScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutsalScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8CC9F791BC2610F0044BDBE /* FutsalScoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutsalScoreUITests.m; sourceTree = "<group>"; };
 		F8CC9F7B1BC2610F0044BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8CC9F871BC261C60044BDBE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
-		F8CC9F881BC261C60044BDBE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
 		F8CC9F8A1BC262030044BDBE /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		F8CC9F8B1BC262030044BDBE /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		F8CC9F8D1BC262130044BDBE /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		F8CC9F8E1BC262130044BDBE /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		F8CC9F901BC3871D0044BDBE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F8CC9F911BC3871D0044BDBE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F8CC9F931BC389180044BDBE /* ResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewController.h; sourceTree = "<group>"; };
+		F8CC9F941BC389180044BDBE /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewController.m; sourceTree = "<group>"; };
+		F8CC9F961BC39DDA0044BDBE /* PracticeResutlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeResutlViewController.h; sourceTree = "<group>"; };
+		F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeResutlViewController.m; sourceTree = "<group>"; };
+		F8CC9F991BC3B87E0044BDBE /* MemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberViewController.h; sourceTree = "<group>"; };
+		F8CC9F9A1BC3B87E0044BDBE /* MemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberViewController.m; sourceTree = "<group>"; };
+		F8CC9F9C1BC3BCD40044BDBE /* MemberRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberRegisterViewController.h; sourceTree = "<group>"; };
+		F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberRegisterViewController.m; sourceTree = "<group>"; };
+		F8D514AE1BC4E32C00CFC76C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		F8D514AF1BC4E32C00CFC76C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F8D514B01BC4FE6800CFC76C /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		F8D514B11BC4FE6800CFC76C /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		F8D514B31BC5230900CFC76C /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		F8D514B41BC5230900CFC76C /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		F8DB2F891BC3D2FF00796753 /* 2815fc5dbca57daed0dfd22be6b02bc8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2815fc5dbca57daed0dfd22be6b02bc8.jpeg; sourceTree = "<group>"; };
+		F8DB2F8B1BC4CFB900796753 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		F8DB2F8C1BC4CFB900796753 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1021CA50D8DCB1F42C0819C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FD13E5B5636D521FF3EA603 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B3CCC1187B1FC36E502204 /* Pods.debug.xcconfig */,
+				BA8123638A7528B7B91B2C99 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A0ED3C1C59D8F21E4421BD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83C31FC2040C32DA997106CA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F8CC9F481BC2610F0044BDBE = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +138,8 @@
 				F8CC9F6D1BC2610F0044BDBE /* FutsalScoreTests */,
 				F8CC9F781BC2610F0044BDBE /* FutsalScoreUITests */,
 				F8CC9F521BC2610F0044BDBE /* Products */,
+				0FD13E5B5636D521FF3EA603 /* Pods */,
+				6A0ED3C1C59D8F21E4421BD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,13 +158,28 @@
 			children = (
 				F8CC9F571BC2610F0044BDBE /* AppDelegate.h */,
 				F8CC9F581BC2610F0044BDBE /* AppDelegate.m */,
-				F8CC9F871BC261C60044BDBE /* HomeViewController.h */,
-				F8CC9F881BC261C60044BDBE /* HomeViewController.m */,
+				F8CC9F931BC389180044BDBE /* ResultTableViewController.h */,
+				F8CC9F941BC389180044BDBE /* ResultTableViewController.m */,
+				F8CC9F901BC3871D0044BDBE /* HomeViewController.h */,
+				F8CC9F911BC3871D0044BDBE /* HomeViewController.m */,
 				F8CC9F8A1BC262030044BDBE /* GameViewController.h */,
 				F8CC9F8B1BC262030044BDBE /* GameViewController.m */,
 				F8CC9F8D1BC262130044BDBE /* ResultViewController.h */,
 				F8CC9F8E1BC262130044BDBE /* ResultViewController.m */,
+				F8CC9F961BC39DDA0044BDBE /* PracticeResutlViewController.h */,
+				F8CC9F971BC39DDA0044BDBE /* PracticeResutlViewController.m */,
 				F8CC9F5D1BC2610F0044BDBE /* Main.storyboard */,
+				F8D514B31BC5230900CFC76C /* RankingViewController.h */,
+				F8D514B41BC5230900CFC76C /* RankingViewController.m */,
+				F8D514B01BC4FE6800CFC76C /* PlayerViewController.h */,
+				F8D514B11BC4FE6800CFC76C /* PlayerViewController.m */,
+				F8DB2F8B1BC4CFB900796753 /* Player.h */,
+				F8DB2F8C1BC4CFB900796753 /* Player.m */,
+				F8CC9F9C1BC3BCD40044BDBE /* MemberRegisterViewController.h */,
+				F8CC9F9D1BC3BCD40044BDBE /* MemberRegisterViewController.m */,
+				F8CC9F991BC3B87E0044BDBE /* MemberViewController.h */,
+				F8CC9F9A1BC3B87E0044BDBE /* MemberViewController.m */,
+				F8DB2F891BC3D2FF00796753 /* 2815fc5dbca57daed0dfd22be6b02bc8.jpeg */,
 				F8CC9F601BC2610F0044BDBE /* Assets.xcassets */,
 				F8CC9F621BC2610F0044BDBE /* LaunchScreen.storyboard */,
 				F8CC9F651BC2610F0044BDBE /* Info.plist */,
@@ -157,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8CC9F7E1BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScore" */;
 			buildPhases = (
+				18BB30FE87E33DA0C5BEFA0B /* Check Pods Manifest.lock */,
 				F8CC9F4D1BC2610F0044BDBE /* Sources */,
 				F8CC9F4E1BC2610F0044BDBE /* Frameworks */,
 				F8CC9F4F1BC2610F0044BDBE /* Resources */,
+				6139F0F66329438485787932 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +322,7 @@
 				F8CC9F641BC2610F0044BDBE /* LaunchScreen.storyboard in Resources */,
 				F8CC9F611BC2610F0044BDBE /* Assets.xcassets in Resources */,
 				F8CC9F5F1BC2610F0044BDBE /* Main.storyboard in Resources */,
+				F8DB2F8A1BC3D2FF00796753 /* 2815fc5dbca57daed0dfd22be6b02bc8.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,16 +342,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18BB30FE87E33DA0C5BEFA0B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6139F0F66329438485787932 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F8CC9F4D1BC2610F0044BDBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CC9F9E1BC3BCD40044BDBE /* MemberRegisterViewController.m in Sources */,
+				F8CC9F9B1BC3B87E0044BDBE /* MemberViewController.m in Sources */,
 				F8CC9F8C1BC262030044BDBE /* GameViewController.m in Sources */,
 				F8CC9F591BC2610F0044BDBE /* AppDelegate.m in Sources */,
+				F8DB2F8D1BC4CFB900796753 /* Player.m in Sources */,
 				F8CC9F561BC2610F0044BDBE /* main.m in Sources */,
-				F8CC9F891BC261C60044BDBE /* HomeViewController.m in Sources */,
 				F8CC9F8F1BC262130044BDBE /* ResultViewController.m in Sources */,
+				F8CC9F951BC389180044BDBE /* ResultTableViewController.m in Sources */,
+				F8CC9F921BC3871D0044BDBE /* HomeViewController.m in Sources */,
+				F8D514B21BC4FE6800CFC76C /* PlayerViewController.m in Sources */,
+				F8CC9F981BC39DDA0044BDBE /* PracticeResutlViewController.m in Sources */,
+				F8D514B51BC5230900CFC76C /* RankingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +431,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8CC9F5E1BC2610F0044BDBE /* Base */,
+				F8D514AE1BC4E32C00CFC76C /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -332,6 +440,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F8CC9F631BC2610F0044BDBE /* Base */,
+				F8D514AF1BC4E32C00CFC76C /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -423,6 +532,7 @@
 		};
 		F8CC9F7F1BC2610F0044BDBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B3CCC1187B1FC36E502204 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FutsalScore/Info.plist;
@@ -435,6 +545,7 @@
 		};
 		F8CC9F801BC2610F0044BDBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8123638A7528B7B91B2C99 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FutsalScore/Info.plist;
@@ -512,6 +623,7 @@
 				F8CC9F801BC2610F0044BDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8CC9F811BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +632,7 @@
 				F8CC9F831BC2610F0044BDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8CC9F841BC2610F0044BDBE /* Build configuration list for PBXNativeTarget "FutsalScoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +641,7 @@
 				F8CC9F861BC2610F0044BDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

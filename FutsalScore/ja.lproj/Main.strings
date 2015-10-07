@@ -1,0 +1,66 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "12L-Dq-UFp"; */
+"12L-Dq-UFp.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "紅白戦"; ObjectID = "2bD-bS-6X0"; */
+"2bD-bS-6X0.normalTitle" = "紅白戦";
+
+/* Class = "UIButton"; normalTitle = "ランキング"; ObjectID = "6eM-gY-Yy5"; */
+"6eM-gY-Yy5.normalTitle" = "ランキング";
+
+/* Class = "UIViewController"; title = "Game"; ObjectID = "DEz-xP-hL6"; */
+"DEz-xP-hL6.title" = "Game";
+
+/* Class = "UILabel"; text = "名"; ObjectID = "DqT-hs-7oi"; */
+"DqT-hs-7oi.text" = "名";
+
+/* Class = "UINavigationItem"; title = "選手登録"; ObjectID = "GPN-x2-oLS"; */
+"GPN-x2-oLS.title" = "選手登録";
+
+/* Class = "UILabel"; text = "ポジション"; ObjectID = "MeV-dV-82P"; */
+"MeV-dV-82P.text" = "ポジション";
+
+/* Class = "UILabel"; text = "背番号"; ObjectID = "Nlr-eh-9q7"; */
+"Nlr-eh-9q7.text" = "背番号";
+
+/* Class = "UILabel"; text = "試合形式"; ObjectID = "U1m-vi-7H9"; */
+"U1m-vi-7H9.text" = "試合形式";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "UPy-3I-O8I"; */
+"UPy-3I-O8I.title" = "Home";
+
+/* Class = "UIViewController"; title = "Home"; ObjectID = "V3Y-Zz-bv7"; */
+"V3Y-Zz-bv7.title" = "Home";
+
+/* Class = "UINavigationItem"; title = "Game"; ObjectID = "Vt7-VV-DSb"; */
+"Vt7-VV-DSb.title" = "Game";
+
+/* Class = "UITableViewController"; title = "紅白戦"; ObjectID = "Z52-yH-6cy"; */
+"Z52-yH-6cy.title" = "紅白戦";
+
+/* Class = "UIViewController"; title = "Member"; ObjectID = "dAi-UY-RCg"; */
+"dAi-UY-RCg.title" = "Member";
+
+/* Class = "UINavigationItem"; title = "Result"; ObjectID = "dQF-IJ-Zzg"; */
+"dQF-IJ-Zzg.title" = "Result";
+
+/* Class = "UIButton"; normalTitle = "登録する"; ObjectID = "eYb-Xk-vX5"; */
+"eYb-Xk-vX5.normalTitle" = "登録する";
+
+/* Class = "UIViewController"; title = "Result"; ObjectID = "gha-s5-ItP"; */
+"gha-s5-ItP.title" = "Result";
+
+/* Class = "UINavigationItem"; title = "Member"; ObjectID = "nn0-FN-2eO"; */
+"nn0-FN-2eO.title" = "Member";
+
+/* Class = "UILabel"; text = "姓"; ObjectID = "wyg-sl-7uW"; */
+"wyg-sl-7uW.text" = "姓";
+
+/* Class = "UIButton"; normalTitle = "公式戦"; ObjectID = "xTe-zE-2F4"; */
+"xTe-zE-2F4.normalTitle" = "公式戦";
+
+/* Class = "UILabel"; text = "Tokyo tech"; ObjectID = "ye7-At-dr4"; */
+"ye7-At-dr4.text" = "Tokyo tech";
+
+/* Class = "UINavigationItem"; title = "紅白戦"; ObjectID = "yyz-fG-MiM"; */
+"yyz-fG-MiM.title" = "紅白戦";
